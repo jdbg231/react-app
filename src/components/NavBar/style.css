@@ -1,0 +1,40 @@
+.header {
+    width:100%;
+    overflow:hidden;
+    margin-bottom:0px;
+    height: 70px;
+    padding: 10px 0px;
+}
+header nav {
+    float: left;
+    line-height:20px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+
+header nav a {
+    display:inline;
+    color:#282828;
+    text-decoration:none;
+    padding: 10px 5px;
+    line-height:normal;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+}
+
+header nav a:hover {
+    color:#9a9a9a;
+}
+
+
+.card-error{
+    background: red;
+
+}
+
+.card-success {
+    background-color: green;
+}
