@@ -1,14 +1,20 @@
 import "./style.css"
+import CartWidget from "../CartWidget/CartWidget";
 
 function NavBar({mensaje,variant}) {
     return <>
         <header>
             <nav>
-                <a href="index.html">Inicio</a>
-                <a href="portafolio.html">Portafolio</a>
-                <a href="conoceme.html">Conóceme</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="#">Inicio</a>
+                <a href="#">Tienda</a>
+                <a href="#">Quienes somos</a>
+                <a href="#">Contacto</a>
             </nav>
+            <div className="barra">
+                <div>
+                  <CartWidget/>
+                </div>
+            </div>
         </header>
     </>;
 }
