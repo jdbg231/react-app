@@ -3,19 +3,23 @@ import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemCount from "./components/ItemCount/ItemCount";
+import Item from "./components/Item/item";
+import "bootstrap/dist/css/bootstrap.min.css"
+import ItemList from "./components/ItemList/ItemList";
 
 function App() {
 
   return (<>
           <div>
               <NavBar mensaje={"hola"} variant={"success"}/>
+              <ItemCount/>
           </div>
-          <ItemListContainer values={[
-              {color: "red", text: "hello there", bold: true},
-              {color: "blue", text: "bye"},
-              {color: "green", text: "hola"},
-          ]} />
-          <ItemCount/>
+          {/*<div>*/}
+          {/*    <Item/>*/}
+          {/*</div>*/}
+          {/*<div>*/}
+          {/*    <ItemCount/>*/}
+          {/*</div>*/}
       </>
   );
 }
